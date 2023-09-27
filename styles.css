@@ -1,1 +1,47 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+	width:100%;
+}
+
+.navbar {
+    background-color: #D7E8D4;
+    flex: 1/6;
+    padding: 1em;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    flex: 5/6;
+}
+
+.header,
+.footer {
+    background-color: yellowgreen;
+    flex: 1/5;
+    padding: 1em;
+}
+
+.content {
+    display: flex;
+    flex: 4/5;
+    padding: 1em;
+}
+
+.article {
+    flex: 3/4;
+    min-height: 60vh;
+    padding: 1em;
+}
+
+.aside {
+    flex: 1/4;
+    padding: 1em;
+}
